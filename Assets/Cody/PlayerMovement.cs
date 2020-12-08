@@ -19,5 +19,7 @@ public class PlayerMovement : MonoBehaviour
         float inY = Time.deltaTime * scaler * Input.GetAxis("Vertical");
         transform.position += new Vector3(inX, inY, 0);
         Debug.Log(inX + " , " + inY);
+
     }
+    
 }
