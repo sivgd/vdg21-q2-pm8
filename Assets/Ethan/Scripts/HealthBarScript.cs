@@ -10,20 +10,31 @@ public class HealthBarScript : MonoBehaviour
     public Gradient gradient;
     public Image fill;
 
+    /*private LifeCounterScript lifesystem;
+    
+    void Start()
+    {
+        lifesystem = FindObjectOfType<LifeCounterScript>();
+    }
+
+    void Update()
+    {
+        lifesystem.TakeLife();
+    }
+    */
+
     public void SetMaxHealth(int health)
     {
         slider.maxValue = health;
         slider.value = health;
 
-        fill.color = gradient.Evaluate(1f);
+        fill.color = gradient.Evaluate(1);
     }
 
-    public void SetHealth(int Health)
+    public void SetHealth(int health)
     {
-        slider.value = Health;
+        slider.value = health;
 
         fill.color = gradient.Evaluate(slider.normalizedValue);
-    }
-
-
+    }       
 }
