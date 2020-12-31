@@ -5,6 +5,10 @@ using UnityEngine.UI;
 
 public class InsanityBarScript : MonoBehaviour
 {
+
+    public TestPlayerUIScript TestPlayer;
+    public HealthBarScript healthbar;
+
     private Insanity insanity;
     private Image barImage;
 
@@ -21,6 +25,15 @@ public class InsanityBarScript : MonoBehaviour
         insanity.update();
 
         barImage.fillAmount = insanity.GetInsanityNormalized();
+
+        //public float test =
+        //Debug.Log(insanity.GetInsanityNormalized());
+        if (insanity.GetInsanityNormalized() == 1)
+        {
+            TestPlayer.TakeDamage(20);
+            insanity.insanityReset();
+        }
+
     }
 }
 
@@ -31,10 +44,16 @@ public class Insanity {
     private float insanityAmount;
     private float insanityRegenAmount;
 
-    public Insanity( )
+     public Insanity()
     {
         insanityAmount = 0;
-        insanityRegenAmount = .2f;
+        insanityRegenAmount = 10f;
+    }
+
+    public void insanityReset()
+    {
+        insanityAmount = 0;
+        //insanityRegenAmount = 10f;
     }
 
     public void update()
@@ -55,5 +74,11 @@ public class Insanity {
     {
         return insanityAmount / INSANITY_MAX;
     }
+
+    public void TakeInsanityDamage()
+    {
+
+    }
+
 } 
 

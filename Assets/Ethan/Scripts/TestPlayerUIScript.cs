@@ -30,7 +30,7 @@ public class TestPlayerUIScript : MonoBehaviour
         }
     }
 
-    void TakeDamage(int damage)
+    public void TakeDamage (int damage)
     {
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
@@ -42,6 +42,11 @@ public class TestPlayerUIScript : MonoBehaviour
         if (currentHealth == 0)
         {
            LifeCounter.TakeLife();
+           if (LifeCounter.lifeCounter == -1)
+           {
+                Debug.Log(LifeCounter.lifeCounter);
+                
+           }
            currentHealth = maxHealth;
            healthBar.SetHealth(currentHealth);
         }
