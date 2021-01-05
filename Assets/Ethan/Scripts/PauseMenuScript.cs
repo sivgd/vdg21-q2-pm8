@@ -1,45 +1,47 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseMenuScript : MonoBehaviour
 {
-    [SerializeField] private GameObject pauseMenuUI;
+    public GameObject pauseMenu;
+    public static bool isPaused;
 
-    [SerializeField] private bool isPaused;
+    // Start is called before the first frame update
+    void Start()
+    {
+       pauseMenu.SetActive(false);
+    }
 
-    private void Update()
+    // Update is called once per frame
+    void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            isPaused = !isPaused;
+            if (isPaused)
+            {
+                ResumeGame();
+            }
+            else
+            {
+                PauseGame();
+            }                  
         }
-
-        if (isPaused)
-        {
-            ActivateMenu();
-        }
-
-        else
-        {
-            DeactivateMenu();
-        }
-
-
+        
     }
 
-    void ActivateMenu()
+    public void PauseGame()
     {
-        Time.timeScale = 0;
-        AudioListener.pause = true;
-        pauseMenuUI.SetActive(true);
+        pauseMenu.SetActive(true);
+        Time.timeScale = 0f;
+        isPaused = true;
     }
 
-    public void DeactivateMenu()
+    public void ResumeGame()
     {
-        Time.timeScale = 1;
-        AudioListener.pause = false;
-        pauseMenuUI.SetActive(false);
+        pauseMenu.SetActive(false);
+        Time.timeScale = 1f;
         isPaused = false;
     }
 }
