@@ -5,6 +5,8 @@ using UnityEngine;
 public class SnowballDestroy : MonoBehaviour
 {
     public bool hit;
+    public EnemyUIScript EnemyHurt;
+    public BossUIScript BossHurt;
     
     // Start is called before the first frame update
     void Start()
@@ -19,9 +21,19 @@ public class SnowballDestroy : MonoBehaviour
         
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-    Destroy(this.gameObject);
+        if (collision.gameObject.name == "TestEnemy")
+            Debug.Log("testenemy");
+            EnemyHurt.EnemyTakeDamage(10);
+            Destroy(this.gameObject);        
+
+        if (collision.gameObject.name == "TestBoss")
+            BossHurt.BossTakeDamage(10);
+            Debug.Log("testboss");
+            Destroy(this.gameObject);
+       
     }
+
     
 }

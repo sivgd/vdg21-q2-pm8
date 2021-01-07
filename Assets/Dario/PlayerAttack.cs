@@ -11,7 +11,8 @@ public class PlayerAttack : MonoBehaviour
     public bool IsShooting;
     public float waittime;
     public float scaler;
-
+    
+    
 
     // Start is called before the first frame update
     void Start()
@@ -48,7 +49,7 @@ public class PlayerAttack : MonoBehaviour
             float inX = Time.deltaTime * scaler * Input.GetAxis("Horizontal");
             float inY = Time.deltaTime * scaler * Input.GetAxis("Vertical");
             transform.position += new Vector3(inX, inY, 0);
-            Debug.Log(inX + " , " + inY);
+            //Debug.Log(inX + " , " + inY);
         }
     }
 
@@ -82,4 +83,5 @@ public class PlayerAttack : MonoBehaviour
         IsShooting = false;
     }
 
+   
 }

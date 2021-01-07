@@ -10,6 +10,7 @@ public class HealthBarScript : MonoBehaviour
     public Gradient gradient;
     public Image fill;
 
+    // extra stuff for the life counter
     /*private LifeCounterScript lifesystem;
     
     void Start()
@@ -23,6 +24,7 @@ public class HealthBarScript : MonoBehaviour
     }
     */
 
+    // Sets the max health for the healthbar
     public void SetMaxHealth(int health)
     {
         slider.maxValue = health;
@@ -31,6 +33,7 @@ public class HealthBarScript : MonoBehaviour
         fill.color = gradient.Evaluate(1);
     }
 
+    // Sets the current health for the healthbar
     public void SetHealth(int health)
     {
         slider.value = health;

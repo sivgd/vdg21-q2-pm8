@@ -12,7 +12,7 @@ public class LifeCounterScript : MonoBehaviour
     public Text theText;
     //private HealthBarScript healthCounter;
 
-    // Start is called before the first frame update
+    // Gets the lives amount for the life counter
     void Start()
     {
         theText = GetComponent<Text>();
@@ -20,7 +20,7 @@ public class LifeCounterScript : MonoBehaviour
         lifeCounter = startingLives;
     }
 
-    // Update is called once per frame
+    // Updates the life counter amount
     void Update()
     {
         theText.text = "x " + lifeCounter;
@@ -30,11 +30,13 @@ public class LifeCounterScript : MonoBehaviour
         }*/
     }
 
+    // Adds extra lives
     public void GiveLife()
     {
         lifeCounter++;
     }
 
+    // Takes away lives
     public void TakeLife()
     {
         lifeCounter--;
