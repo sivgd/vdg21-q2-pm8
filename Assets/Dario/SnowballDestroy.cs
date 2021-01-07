@@ -23,14 +23,12 @@ public class SnowballDestroy : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.name == "TestEnemy")
-            Debug.Log("testenemy");
+        if (collision.gameObject.name == "TestEnemy")        
             EnemyHurt.EnemyTakeDamage(10);
             Destroy(this.gameObject);        
 
         if (collision.gameObject.name == "TestBoss")
-            BossHurt.BossTakeDamage(10);
-            Debug.Log("testboss");
+            BossHurt.BossTakeDamage(10);           
             Destroy(this.gameObject);
        
     }
