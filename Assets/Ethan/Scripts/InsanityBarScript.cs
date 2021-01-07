@@ -80,11 +80,12 @@ public class Insanity {
         return insanityAmount / INSANITY_MAX;
     }
 
-   // might need this for later
-   /*public void TakeInsanityDamage()
-    {
+    // might need this for later
+    /*public void TakeInsanityDamage()
+     {
 
-    } */
+     } */
 
+    
 } 
 
