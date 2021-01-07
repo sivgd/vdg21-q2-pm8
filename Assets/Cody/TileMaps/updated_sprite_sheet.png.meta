@@ -3881,8 +3881,8 @@ TextureImporter:
         serializedVersion: 2
         x: 26
         y: 461
-        width: 180
-        height: 180
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3902,8 +3902,8 @@ TextureImporter:
         serializedVersion: 2
         x: 221
         y: 461
-        width: 180
-        height: 180
+        width: 167
+        height: 167
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3923,8 +3923,8 @@ TextureImporter:
         serializedVersion: 2
         x: 412
         y: 462
-        width: 180
-        height: 180
+        width: 167
+        height: 167
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3944,8 +3944,8 @@ TextureImporter:
         serializedVersion: 2
         x: 606
         y: 463
-        width: 180
-        height: 180
+        width: 167
+        height: 167
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3965,8 +3965,8 @@ TextureImporter:
         serializedVersion: 2
         x: 802
         y: 464
-        width: 180
-        height: 180
+        width: 167
+        height: 167
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3986,8 +3986,8 @@ TextureImporter:
         serializedVersion: 2
         x: 32
         y: 218
-        width: 180
-        height: 180
+        width: 167
+        height: 167
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4007,8 +4007,8 @@ TextureImporter:
         serializedVersion: 2
         x: 231
         y: 218
-        width: 180
-        height: 180
+        width: 167
+        height: 167
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4028,8 +4028,8 @@ TextureImporter:
         serializedVersion: 2
         x: 425
         y: 215
-        width: 180
-        height: 180
+        width: 167
+        height: 167
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
