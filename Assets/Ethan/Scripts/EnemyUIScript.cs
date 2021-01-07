@@ -35,7 +35,7 @@ public class EnemyUIScript : MonoBehaviour
             Player.PlayerTakeDamage(10);
     } */
 
-    // Makes the enemy deal damage to the player
+    // Makes the enemy take damage
     public void EnemyTakeDamage(int damage)
     {
         EnemycurrentHealth -= damage;
@@ -53,7 +53,7 @@ public class EnemyUIScript : MonoBehaviour
 
     }
 
-    // extra
+    // Makes the enemy damage the player
   private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.name == "TestPlayer")
