@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerUltimate : MonoBehaviour
 {
-    public float scaler = 20f;
+    public float scaler;
     public Rigidbody2D rb;
     public Animator animator;
     public GameObject snowball;
@@ -62,30 +62,33 @@ public class PlayerUltimate : MonoBehaviour
 
     IEnumerator UpCoroutine()
     {
-        yield return new WaitForSeconds(waittime);
         GameObject clone = (GameObject)Instantiate(snowball, new Vector3(Spawnpoint.transform.position.x, Spawnpoint.transform.position.y + 1, Spawnpoint.transform.position.z), Quaternion.identity);
         clone.GetComponent<Rigidbody2D>().velocity = new Vector2(0, ThrowSpeed);
+        yield return new WaitForSeconds(waittime);
+
         IsShooting = false;
     }
     IEnumerator DownCoroutine()
     {
-        yield return new WaitForSeconds(waittime);
         GameObject clone = (GameObject)Instantiate(snowball, new Vector3(Spawnpoint.transform.position.x, Spawnpoint.transform.position.y - 1, Spawnpoint.transform.position.z), Quaternion.identity);
         clone.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -ThrowSpeed);
+        yield return new WaitForSeconds(waittime);
+
         IsShooting = false;
     }
     IEnumerator RightCoroutine()
     {
-        yield return new WaitForSeconds(waittime);
         GameObject clone = (GameObject)Instantiate(snowball, new Vector3(Spawnpoint.transform.position.x + 1, Spawnpoint.transform.position.y, Spawnpoint.transform.position.z), Quaternion.identity);
         clone.GetComponent<Rigidbody2D>().velocity = new Vector2(ThrowSpeed, 0);
+        yield return new WaitForSeconds(waittime);
+
         IsShooting = false;
     }
     IEnumerator LeftCoroutine()
     {
-        yield return new WaitForSeconds(waittime);
         GameObject clone = (GameObject)Instantiate(snowball, new Vector3(Spawnpoint.transform.position.x - 1, Spawnpoint.transform.position.y, Spawnpoint.transform.position.z), Quaternion.identity);
         clone.GetComponent<Rigidbody2D>().velocity = new Vector2(-ThrowSpeed, 0);
+        yield return new WaitForSeconds(waittime);
         IsShooting = false;
     }
 

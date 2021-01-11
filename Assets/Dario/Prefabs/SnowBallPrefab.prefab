@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 352210908ca4dde48825d01ac2fa09c6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 38f26e2e2316f624c8d55825ef54d594, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -118,6 +118,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hit: 0
+  EnemyHurt: {fileID: 0}
+  BossHurt: {fileID: 0}
 --- !u!58 &2971144721293455215
 CircleCollider2D:
   m_ObjectHideFlags: 0
