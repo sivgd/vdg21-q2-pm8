@@ -9,14 +9,13 @@ public class EnemyUIScript : MonoBehaviour
     public int EnemycurrentHealth;
 
     public PlayerUIScript Player;
-    public HealthBarScript playerhealth;
+   
 
 
     // Sets the enemy's current health
     void Start()
     {
-        EnemycurrentHealth = EnemymaxHealth;
-        
+        EnemycurrentHealth = EnemymaxHealth;      
     }
 
     // Test for enemy health
@@ -28,29 +27,20 @@ public class EnemyUIScript : MonoBehaviour
         }
     }
 
-    // Makes the enemy deal damage to the player
-   /* private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.tag == "Player")
-            Player.PlayerTakeDamage(10);
-    } */
-
     // Makes the enemy take damage
     public void EnemyTakeDamage(int damage)
     {
         EnemycurrentHealth -= damage;
         EnemycheckDead();
-
     }
 
     // Checks if the enemy is dead
     void EnemycheckDead()
     {
-        if (EnemycurrentHealth == 0)
+        if (EnemycurrentHealth <= 0)
         {          
             Destroy(gameObject);
         }
-
     }
 
     // Makes the enemy damage the player

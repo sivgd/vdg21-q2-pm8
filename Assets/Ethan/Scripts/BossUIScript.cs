@@ -1,29 +1,28 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class BossUIScript : MonoBehaviour
 {
     public int BossmaxHealth = 250;
     public int BosscurrentHealth;
     public PlayerUIScript player;
-    //public HealthBarScript healthofplayer;
 
     
 
     // Sets the bosses current health
     void Start()
     {
+       // Instantiate(TestBoss)
         BosscurrentHealth = BossmaxHealth;
     }
 
     // Test health for boss
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            BossTakeDamage(25);
-        }                           
+                  
     }
 
     //  makes the boss do damage to the player
