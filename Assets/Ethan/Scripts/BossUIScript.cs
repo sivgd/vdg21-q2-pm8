@@ -25,11 +25,14 @@ public class BossUIScript : MonoBehaviour
                   
     }
 
-    //  makes the boss do damage to the player
+    //  makes the boss do damage to the player and makes the snowball deal damage to the boss
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.name == "TestPlayer")
-            player.PlayerTakeDamage(25);
+        if (collision.gameObject.tag == "Player")
+            player.PlayerTakeDamage(45);
+
+        if (collision.gameObject.name == "SnowBallPrefab(Clone)")
+            BossTakeDamage(10);
     }
 
     // makes the boss take damage

@@ -45,13 +45,19 @@ public class PlayerUIScript : MonoBehaviour
         if (PlayercurrentHealth <= 0)
         {
            LifeCounter.TakeLife();
-           if (LifeCounter.lifeCounter == -1)
+           if (LifeCounter.lifeCounter <= -1)
            {
                // SceneManager.LoadScene("");
                 Destroy(gameObject);
            }
            PlayercurrentHealth = PlayermaxHealth;
            healthBar.SetHealth(PlayercurrentHealth);
+
+            if (PlayercurrentHealth >= 100)
+               PlayercurrentHealth = PlayermaxHealth;
+
+            if (LifeCounter.lifeCounter >= 6)
+                LifeCounter.lifeCounter = LifeCounter.startingLives;
         }
             
     }
