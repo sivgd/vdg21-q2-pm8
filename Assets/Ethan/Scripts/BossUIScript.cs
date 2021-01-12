@@ -10,7 +10,9 @@ public class BossUIScript : MonoBehaviour
     public int BosscurrentHealth;
     public PlayerUIScript player;
 
-    
+    // The dropping of the heart to go to next level
+    public GameObject lootDrop;
+
 
     // Sets the bosses current health
     void Start()
@@ -48,6 +50,7 @@ public class BossUIScript : MonoBehaviour
         if (BosscurrentHealth == 0)
         {
             Destroy(gameObject);
+            Instantiate(lootDrop, transform.position, Quaternion.identity);
         }
     }    
 }
