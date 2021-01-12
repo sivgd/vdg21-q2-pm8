@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/CombinedScene.unity
     guid: afeaad150f36e5048829e3c2001ea5da
+  - enabled: 1
+    path: Assets/Game/Credits.unity
+    guid: 2ba805b2ea9c19d4c97f50982223fc0f
   m_configObjects: {}
