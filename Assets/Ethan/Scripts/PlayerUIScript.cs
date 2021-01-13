@@ -36,11 +36,11 @@ public class PlayerUIScript : MonoBehaviour
     {
         PlayercurrentHealth -= damage;
         healthBar.SetHealth(PlayercurrentHealth);
-       // PlayercheckDead();
+        PlayercheckDead();
     }
 
     // The code for checking if the player is dead
-    /*void PlayercheckDead()
+    void PlayercheckDead()
     {
         if (PlayercurrentHealth <= 0)
         {
@@ -52,14 +52,8 @@ public class PlayerUIScript : MonoBehaviour
            }
            PlayercurrentHealth = PlayermaxHealth;
            healthBar.SetHealth(PlayercurrentHealth);
-
-            if (PlayercurrentHealth >= 100)
-               PlayercurrentHealth = PlayermaxHealth;
-
-            if (LifeCounter.lifeCounter >= 6)
-                LifeCounter.lifeCounter = LifeCounter.startingLives;
-        }*/
+        }
             
     }
 
-//}
+}

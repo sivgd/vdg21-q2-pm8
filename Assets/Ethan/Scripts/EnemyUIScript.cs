@@ -7,6 +7,7 @@ public class EnemyUIScript : MonoBehaviour
 {
     public int EnemymaxHealth = 50;
     public int EnemycurrentHealth;
+    public InsanityBarScript insanityhurt;
     //public GameObject snowball;
     public PlayerUIScript Player;
    
@@ -49,6 +50,9 @@ public class EnemyUIScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
             Player.PlayerTakeDamage(15);
+            insanityhurt.insanity.insanityAmount += 5;
+
+
 
         if (collision.gameObject.name == "SnowBallPrefab(Clone)")
             EnemyTakeDamage(10);

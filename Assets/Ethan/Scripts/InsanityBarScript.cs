@@ -8,7 +8,7 @@ public class InsanityBarScript : MonoBehaviour
     public PlayerUIScript PlayerUI;
     public HealthBarScript healthbar;
 
-    private Insanity insanity;
+    public Insanity insanity;
     private Image barImage;
 
     // Updates the fill for the insanity bar
@@ -26,8 +26,7 @@ public class InsanityBarScript : MonoBehaviour
 
         barImage.fillAmount = insanity.GetInsanityNormalized();
 
-        //public float test =
-        //Debug.Log(insanity.GetInsanityNormalized());
+        
         if (insanity.GetInsanityNormalized() == 1)
         {
             PlayerUI.PlayerTakeDamage(20);
@@ -41,14 +40,14 @@ public class Insanity {
 
     public const int INSANITY_MAX = 100;
 
-    private float insanityAmount;
+    public float insanityAmount;
     private float insanityRegenAmount;
     
     // Sets the insanity amount
      public Insanity()
     {
         insanityAmount = 0;
-        insanityRegenAmount = 10f;
+        insanityRegenAmount = 0.2f;
     }
 
     // Resets the insanity amount

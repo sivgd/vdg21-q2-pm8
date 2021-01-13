@@ -7,7 +7,7 @@ public class LifeCounterScript : MonoBehaviour
 {
 
     public int startingLives = 5;
-    public static int lifeCounter; 
+    public int lifeCounter; 
 
     public Text theText;
     //private HealthBarScript healthCounter;
