@@ -45,7 +45,7 @@ public class PlayerUIScript : MonoBehaviour
         if (PlayercurrentHealth <= 0)
         {
            LifeCounter.TakeLife();
-           if (LifeCounter.lifeCounter <= -1)
+           if (PlayerPrefs.GetInt("Lives") <= -1)
            {
                // SceneManager.LoadScene("");
                 Destroy(gameObject);

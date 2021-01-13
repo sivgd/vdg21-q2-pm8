@@ -19,7 +19,11 @@ public class LifeCounterScript : MonoBehaviour
 
         lifeCounter = startingLives;
     }
-
+    public void ResetLife()
+    {
+        lifeCounter = startingLives;
+        PlayerPrefs.SetInt("Lives", startingLives);
+    }
     // Updates the life counter amount
     void Update()
     {
@@ -34,12 +38,14 @@ public class LifeCounterScript : MonoBehaviour
     public void GiveLife()
     {
         lifeCounter++;
+        PlayerPrefs.SetInt("Lives", lifeCounter);
     }
 
     // Takes away lives
     public void TakeLife()
     {
         lifeCounter--;
+        PlayerPrefs.SetInt("Lives", lifeCounter);
     }
 
     
