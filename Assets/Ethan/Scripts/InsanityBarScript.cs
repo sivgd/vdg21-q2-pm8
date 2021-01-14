@@ -7,7 +7,10 @@ public class InsanityBarScript : MonoBehaviour
 {
     public PlayerUIScript PlayerUI;
     public HealthBarScript healthbar;
-
+    public GameObject insanity1;
+    public GameObject insanity2;
+    public GameObject insanity3;
+    public GameObject Enemy;
     public Insanity insanity;
     private Image barImage;
 
@@ -29,8 +32,11 @@ public class InsanityBarScript : MonoBehaviour
         
         if (insanity.GetInsanityNormalized() == 1)
         {
-            PlayerUI.PlayerTakeDamage(20);
-            insanity.insanityReset();
+             PlayerUI.PlayerTakeDamage(20);
+             insanity.insanityReset();
+            Instantiate(Enemy, insanity1.transform.position, insanity1.transform.rotation);
+            Instantiate(Enemy, insanity2.transform.position, insanity2.transform.rotation);
+            Instantiate(Enemy, insanity3.transform.position, insanity3.transform.rotation);
         }
 
     }
@@ -47,7 +53,7 @@ public class Insanity {
      public Insanity()
     {
         insanityAmount = 0;
-        insanityRegenAmount = 0.2f;
+        insanityRegenAmount = 0.5f;
     }
 
     // Resets the insanity amount
@@ -77,14 +83,6 @@ public class Insanity {
     public float GetInsanityNormalized()
     {
         return insanityAmount / INSANITY_MAX;
-    }
-
-    // might need this for later
-    /*public void TakeInsanityDamage()
-     {
-
-     } */
-
-    
+    }    
 } 
 

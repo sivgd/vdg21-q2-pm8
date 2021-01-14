@@ -11,8 +11,8 @@ public class PlayerAttack : MonoBehaviour
     public bool IsShooting;
     public float waittime;
     public float scaler;
-    
-    
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -82,6 +82,6 @@ public class PlayerAttack : MonoBehaviour
         clone.GetComponent<Rigidbody2D>().velocity = new Vector2(-ThrowSpeed, 0);
         IsShooting = false;
     }
-
-   
 }
+   
+   
