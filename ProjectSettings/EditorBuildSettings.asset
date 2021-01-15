@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Cody/Main_Enemy.unity
     guid: 5497b36b29f594c4d86bfcec9b0ad888
+  - enabled: 1
+    path: Assets/Game/Settings.unity
+    guid: 55381b9b64e5fa24b858e157634bbe4c
   m_configObjects: {}

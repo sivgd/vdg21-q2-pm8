@@ -23,3 +23,6 @@ public class TestUIMovementScript : MonoBehaviour
         rb2.AddForce(new Vector2(inX, inY));
     }
 }
+
+
+

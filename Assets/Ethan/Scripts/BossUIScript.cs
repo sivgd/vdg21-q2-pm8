@@ -8,12 +8,9 @@ public class BossUIScript : MonoBehaviour
 {
     public int BossmaxHealth = 250;
     public int BosscurrentHealth;
-    public PlayerUIScript player;
-    public InsanityBarScript insanityhurt;
 
     // The dropping of the heart to go to next level
     public GameObject lootDrop;
-
 
     // Sets the bosses current health
     void Start()
@@ -31,12 +28,8 @@ public class BossUIScript : MonoBehaviour
     //  makes the boss do damage to the player and makes the snowball deal damage to the boss
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Player")
-            player.PlayerTakeDamage(45);
-
         if (collision.gameObject.name == "SnowBallPrefab(Clone)")
-            BossTakeDamage(10);
-            insanityhurt.insanity.insanityAmount += 25;
+            BossTakeDamage(10);         
     }
 
     // makes the boss take damage

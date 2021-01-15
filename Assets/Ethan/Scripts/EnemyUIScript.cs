@@ -7,11 +7,6 @@ public class EnemyUIScript : MonoBehaviour
 {
     public int EnemymaxHealth = 50;
     public int EnemycurrentHealth;
-    public InsanityBarScript insanityhurt;
-    //public GameObject snowball;
-    public PlayerUIScript Player;
-   
-
 
     // Sets the enemy's current health
     void Start()
@@ -26,7 +21,6 @@ public class EnemyUIScript : MonoBehaviour
         {
             EnemyTakeDamage(25);
         }
-
     }
 
     // Makes the enemy take damage
@@ -48,13 +42,7 @@ public class EnemyUIScript : MonoBehaviour
     // Makes the enemy damage the player and makes the snowball damage the enemy
   private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Player")
-            Player.PlayerTakeDamage(15);
-            insanityhurt.insanity.insanityAmount += 5;
-
-
-
         if (collision.gameObject.name == "SnowBallPrefab(Clone)")
-            EnemyTakeDamage(10);
-    } 
+            EnemyTakeDamage(10);        
+    }
 }
