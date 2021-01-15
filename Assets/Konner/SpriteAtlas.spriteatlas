@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+    totalSpriteSurfaceArea: 426357
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -4468132143254186862, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: 2562221351384877315, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: 2870390361598146740, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: -3269019171015807087, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: 867179462796305919, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: -8145230690517114582, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: -6150644870133238848, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: 6471644015579719764, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: 4309395574786266568, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: -1564804420250468657, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: 6613525054711835416, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: 8534550480965633136, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: -4586169888207381249, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: 6903447146509978703, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: 6637673428500371689, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: 4919744808374812313, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: 6823978632717991873, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: 468248912082705030, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: 682797012818303340, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: -5347753904772511652, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: -2880264648970814585, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: -1173948511296315986, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: 5829751943676463970, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: 343638308159489063, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: 279093191697328436, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: 3482271459271546132, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: 5630689200787154233, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: 6735347210169143488, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: 3251968064090276352, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  - {fileID: -7027524707168783341, guid: f585a7c00230fa347a2888d44b595d46, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - idle _ attack updated_28
+  - idle _ attack updated_29
+  - idle _ attack updated_20
+  - idle _ attack updated_21
+  - idle _ attack updated_22
+  - idle _ attack updated_23
+  - idle _ attack updated_24
+  - idle _ attack updated_25
+  - idle _ attack updated_26
+  - idle _ attack updated_27
+  - idle _ attack updated_8
+  - idle _ attack updated_9
+  - idle _ attack updated_2
+  - idle _ attack updated_3
+  - idle _ attack updated_0
+  - idle _ attack updated_1
+  - idle _ attack updated_6
+  - idle _ attack updated_7
+  - idle _ attack updated_4
+  - idle _ attack updated_5
+  - idle _ attack updated_11
+  - idle _ attack updated_10
+  - idle _ attack updated_13
+  - idle _ attack updated_12
+  - idle _ attack updated_15
+  - idle _ attack updated_14
+  - idle _ attack updated_17
+  - idle _ attack updated_16
+  - idle _ attack updated_19
+  - idle _ attack updated_18
+  m_Tag: SpriteAtlas
+  m_IsVariant: 0

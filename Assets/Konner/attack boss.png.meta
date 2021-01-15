@@ -1,97 +1,85 @@
 fileFormatVersion: 2
-guid: f585a7c00230fa347a2888d44b595d46
+guid: ca3fc378450536647a4f8fd999c99b60
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6637673428500371689
-    second: idle _ attack updated_0
+      213: -9087293132064318999
+    second: attack boss_0
   - first:
-      213: 4919744808374812313
-    second: idle _ attack updated_1
+      213: -3117194053017124764
+    second: attack boss_1
   - first:
-      213: -4586169888207381249
-    second: idle _ attack updated_2
+      213: -4778311157888690873
+    second: attack boss_2
   - first:
-      213: 6903447146509978703
-    second: idle _ attack updated_3
+      213: -5895614410482093038
+    second: attack boss_3
   - first:
-      213: 682797012818303340
-    second: idle _ attack updated_4
+      213: -9176682857178462416
+    second: attack boss_4
   - first:
-      213: -5347753904772511652
-    second: idle _ attack updated_5
+      213: 4071987810802201742
+    second: attack boss_5
   - first:
-      213: 6823978632717991873
-    second: idle _ attack updated_6
+      213: 3800670775397591897
+    second: attack boss_6
   - first:
-      213: 468248912082705030
-    second: idle _ attack updated_7
+      213: 690342358488003321
+    second: attack boss_7
   - first:
-      213: 6613525054711835416
-    second: idle _ attack updated_8
+      213: -7053491372093331270
+    second: attack boss_8
   - first:
-      213: 8534550480965633136
-    second: idle _ attack updated_9
+      213: 733411806599139998
+    second: attack boss_9
   - first:
-      213: -1173948511296315986
-    second: idle _ attack updated_10
+      213: -7384094023056593414
+    second: attack boss_10
   - first:
-      213: -2880264648970814585
-    second: idle _ attack updated_11
+      213: 7562257018718079329
+    second: attack boss_11
   - first:
-      213: 343638308159489063
-    second: idle _ attack updated_12
+      213: 5937028507276404693
+    second: attack boss_12
   - first:
-      213: 5829751943676463970
-    second: idle _ attack updated_13
+      213: 4995130409200838452
+    second: attack boss_13
   - first:
-      213: 3482271459271546132
-    second: idle _ attack updated_14
+      213: -4460884229785933534
+    second: attack boss_14
   - first:
-      213: 279093191697328436
-    second: idle _ attack updated_15
+      213: -425478415409040385
+    second: attack boss_15
   - first:
-      213: 6735347210169143488
-    second: idle _ attack updated_16
+      213: -6781049701079129000
+    second: attack boss_16
   - first:
-      213: 5630689200787154233
-    second: idle _ attack updated_17
+      213: 7727072535028514355
+    second: attack boss_17
   - first:
-      213: -7027524707168783341
-    second: idle _ attack updated_18
+      213: -6542007201137931710
+    second: attack boss_18
   - first:
-      213: 3251968064090276352
-    second: idle _ attack updated_19
+      213: -5188165405035284207
+    second: attack boss_19
   - first:
-      213: 2870390361598146740
-    second: idle _ attack updated_20
+      213: 4987422458733397272
+    second: attack boss_20
   - first:
-      213: -3269019171015807087
-    second: idle _ attack updated_21
+      213: -6806719800303869324
+    second: attack boss_21
   - first:
-      213: 867179462796305919
-    second: idle _ attack updated_22
+      213: -4248103883812067487
+    second: attack boss_22
   - first:
-      213: -8145230690517114582
-    second: idle _ attack updated_23
+      213: 4889460482616602624
+    second: attack boss_23
   - first:
-      213: -6150644870133238848
-    second: idle _ attack updated_24
+      213: 137823117492857636
+    second: attack boss_24
   - first:
-      213: 6471644015579719764
-    second: idle _ attack updated_25
-  - first:
-      213: 4309395574786266568
-    second: idle _ attack updated_26
-  - first:
-      213: -1564804420250468657
-    second: idle _ attack updated_27
-  - first:
-      213: -4468132143254186862
-    second: idle _ attack updated_28
-  - first:
-      213: 2562221351384877315
-    second: idle _ attack updated_29
+      213: -3860261788414188367
+    second: attack boss_25
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -121,7 +109,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -201,13 +189,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: idle _ attack updated_0
+      name: attack boss_0
       rect:
         serializedVersion: 2
-        x: 35
-        y: 565
-        width: 138
-        height: 122
+        x: 9
+        y: 821
+        width: 241
+        height: 174
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e850d8b0d0cd1c50800000000000000
-      internalID: 6637673428500371689
+      spriteID: 9e9957dfa0373e180800000000000000
+      internalID: -9087293132064318999
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle _ attack updated_1
+      name: attack boss_1
       rect:
         serializedVersion: 2
-        x: 182
-        y: 558
-        width: 128
-        height: 136
+        x: 285
+        y: 799
+        width: 264
+        height: 206
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,292 +224,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99eb0c856d1764440800000000000000
-      internalID: 4919744808374812313
+      spriteID: 46044fd36808db4d0800000000000000
+      internalID: -3117194053017124764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle _ attack updated_2
+      name: attack boss_2
       rect:
         serializedVersion: 2
-        x: 318
-        y: 549
-        width: 121
-        height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ffc5ec509c6aa50c0800000000000000
-      internalID: -4586169888207381249
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle _ attack updated_3
-      rect:
-        serializedVersion: 2
-        x: 453
-        y: 549
-        width: 122
-        height: 142
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4c496d8a98fdcf50800000000000000
-      internalID: 6903447146509978703
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle _ attack updated_4
-      rect:
-        serializedVersion: 2
-        x: 585
-        y: 553
-        width: 134
-        height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c699bbaf348c97900800000000000000
-      internalID: 682797012818303340
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle _ attack updated_5
-      rect:
-        serializedVersion: 2
-        x: 726
-        y: 557
-        width: 139
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c5883df3826f8c5b0800000000000000
-      internalID: -5347753904772511652
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle _ attack updated_6
-      rect:
-        serializedVersion: 2
-        x: 877
-        y: 549
-        width: 124
-        height: 137
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1cff2065964a3be50800000000000000
-      internalID: 6823978632717991873
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle _ attack updated_7
-      rect:
-        serializedVersion: 2
-        x: 1017
-        y: 544
-        width: 117
-        height: 139
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68a172797ed8f7600800000000000000
-      internalID: 468248912082705030
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle _ attack updated_8
-      rect:
-        serializedVersion: 2
-        x: 1145
-        y: 557
-        width: 122
-        height: 117
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 81bae3f4ff5f7cb50800000000000000
-      internalID: 6613525054711835416
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle _ attack updated_9
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 411
-        width: 130
-        height: 132
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0748897c170d07670800000000000000
-      internalID: 8534550480965633136
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle _ attack updated_10
-      rect:
-        serializedVersion: 2
-        x: 205
-        y: 406
-        width: 116
-        height: 131
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ead959f7c0c45bfe0800000000000000
-      internalID: -1173948511296315986
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle _ attack updated_11
-      rect:
-        serializedVersion: 2
-        x: 345
-        y: 409
-        width: 118
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78bbaf2ef8e3708d0800000000000000
-      internalID: -2880264648970814585
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle _ attack updated_12
-      rect:
-        serializedVersion: 2
-        x: 495
-        y: 413
-        width: 112
-        height: 133
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72400197839d4c400800000000000000
-      internalID: 343638308159489063
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle _ attack updated_13
-      rect:
-        serializedVersion: 2
-        x: 619
-        y: 415
-        width: 126
-        height: 127
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26b8a73618077e050800000000000000
-      internalID: 5829751943676463970
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle _ attack updated_14
-      rect:
-        serializedVersion: 2
-        x: 943
-        y: 419
-        width: 111
-        height: 119
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4159c5d3173835030800000000000000
-      internalID: 3482271459271546132
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle _ attack updated_15
-      rect:
-        serializedVersion: 2
-        x: 954
-        y: 536
-        width: 10
+        x: 540
+        y: 942
+        width: 9
         height: 4
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -530,20 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 439695677c98fd300800000000000000
-      internalID: 279093191697328436
+      spriteID: 74552c7815700bdb0800000000000000
+      internalID: -4778311157888690873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle _ attack updated_16
+      name: attack boss_3
       rect:
         serializedVersion: 2
-        x: 800
-        y: 407
-        width: 105
-        height: 126
+        x: 569
+        y: 786
+        width: 224
+        height: 228
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -551,20 +266,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c0dc0d2a92c87d50800000000000000
-      internalID: 6735347210169143488
+      spriteID: 2147a821ee19e2ea0800000000000000
+      internalID: -5895614410482093038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle _ attack updated_17
+      name: attack boss_4
       rect:
         serializedVersion: 2
-        x: 1077
-        y: 409
-        width: 118
-        height: 119
+        x: 819
+        y: 785
+        width: 206
+        height: 233
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -572,20 +287,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 935eb85def9342e40800000000000000
-      internalID: 5630689200787154233
+      spriteID: 0370671cf8fd5a080800000000000000
+      internalID: -9176682857178462416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle _ attack updated_18
+      name: attack boss_5
       rect:
         serializedVersion: 2
-        x: 58
-        y: 279
-        width: 146
-        height: 117
+        x: 1050
+        y: 785
+        width: 209
+        height: 235
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -593,20 +308,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3147ce22387397e90800000000000000
-      internalID: -7027524707168783341
+      spriteID: e84f590f65b928830800000000000000
+      internalID: 4071987810802201742
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle _ attack updated_19
+      name: attack boss_6
       rect:
         serializedVersion: 2
-        x: 207
-        y: 277
-        width: 113
-        height: 118
+        x: 1298
+        y: 786
+        width: 220
+        height: 231
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -614,20 +329,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 002040189bf412d20800000000000000
-      internalID: 3251968064090276352
+      spriteID: 95b28c3fee1beb430800000000000000
+      internalID: 3800670775397591897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle _ attack updated_20
+      name: attack boss_7
       rect:
         serializedVersion: 2
-        x: 337
-        y: 282
-        width: 125
-        height: 118
+        x: 10
+        y: 573
+        width: 220
+        height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,20 +350,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b833cd63dca5d720800000000000000
-      internalID: 2870390361598146740
+      spriteID: 9f2351ba7b6949900800000000000000
+      internalID: 690342358488003321
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle _ attack updated_21
+      name: attack boss_8
       rect:
         serializedVersion: 2
-        x: 477
-        y: 275
-        width: 146
-        height: 116
+        x: 261
+        y: 534
+        width: 208
+        height: 237
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -656,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19f29ab426c12a2d0800000000000000
-      internalID: -3269019171015807087
+      spriteID: ab82814d7f6fc1e90800000000000000
+      internalID: -7053491372093331270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle _ attack updated_22
+      name: attack boss_9
       rect:
         serializedVersion: 2
-        x: 8
-        y: 21
-        width: 148
-        height: 104
+        x: 509
+        y: 510
+        width: 198
+        height: 245
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -677,20 +392,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff5ec7c7027d80c00800000000000000
-      internalID: 867179462796305919
+      spriteID: e925b6ef62a9d2a00800000000000000
+      internalID: 733411806599139998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle _ attack updated_23
+      name: attack boss_10
       rect:
         serializedVersion: 2
-        x: 165
-        y: 21
-        width: 145
-        height: 98
+        x: 786
+        y: 537
+        width: 209
+        height: 210
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -698,20 +413,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a212e1e97d356fe80800000000000000
-      internalID: -8145230690517114582
+      spriteID: afd60afcb9d668990800000000000000
+      internalID: -7384094023056593414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle _ attack updated_24
+      name: attack boss_11
       rect:
         serializedVersion: 2
-        x: 323
-        y: 10
-        width: 136
-        height: 114
+        x: 1033
+        y: 531
+        width: 242
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -719,20 +434,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c33120041584aaa0800000000000000
-      internalID: -6150644870133238848
+      spriteID: 16945e421b882f860800000000000000
+      internalID: 7562257018718079329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle _ attack updated_25
+      name: attack boss_12
       rect:
         serializedVersion: 2
-        x: 477
-        y: 5
-        width: 141
-        height: 126
+        x: 1323
+        y: 514
+        width: 220
+        height: 229
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -740,20 +455,167 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4586965a1f5efc950800000000000000
-      internalID: 6471644015579719764
+      spriteID: 5d7e39db8ff846250800000000000000
+      internalID: 5937028507276404693
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle _ attack updated_26
+      name: attack boss_13
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 289
+        width: 214
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437ea2f44a4425540800000000000000
+      internalID: 4995130409200838452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack boss_14
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 287
+        width: 200
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229a7738d61c712c0800000000000000
+      internalID: -4460884229785933534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack boss_15
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 276
+        width: 228
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3b2fda2a5681af0800000000000000
+      internalID: -425478415409040385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack boss_16
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 281
+        width: 186
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854e8e2793fd4e1a0800000000000000
+      internalID: -6781049701079129000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack boss_17
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 269
+        width: 189
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e3d04e7831c3b60800000000000000
+      internalID: 7727072535028514355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack boss_18
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 484
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a40229c1f1635a0800000000000000
+      internalID: -6542007201137931710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack boss_19
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 300
+        width: 192
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119b6ec5d0feff7b0800000000000000
+      internalID: -5188165405035284207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack boss_20
       rect:
         serializedVersion: 2
         x: 627
-        y: 14
-        width: 136
-        height: 114
+        y: 274
+        width: 8
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -761,20 +623,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c596cf617c0ecb30800000000000000
-      internalID: 4309395574786266568
+      spriteID: 8150c9d3d42e63540800000000000000
+      internalID: 4987422458733397272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle _ attack updated_27
+      name: attack boss_21
       rect:
         serializedVersion: 2
-        x: 774
-        y: 22
-        width: 145
-        height: 97
+        x: 27
+        y: 61
+        width: 246
+        height: 182
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -782,20 +644,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fce7204aba2b84ae0800000000000000
-      internalID: -1564804420250468657
+      spriteID: 4722549b76ca981a0800000000000000
+      internalID: -6806719800303869324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle _ attack updated_28
+      name: attack boss_22
       rect:
         serializedVersion: 2
-        x: 247
-        y: 9
-        width: 6
-        height: 6
+        x: 131
+        y: 239
+        width: 11
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -803,20 +665,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29454d72d710ef1c0800000000000000
-      internalID: -4468132143254186862
+      spriteID: 167ac6c6604bb05c0800000000000000
+      internalID: -4248103883812067487
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle _ attack updated_29
+      name: attack boss_23
       rect:
         serializedVersion: 2
-        x: 856
-        y: 10
-        width: 6
-        height: 6
+        x: 830
+        y: 59
+        width: 244
+        height: 199
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -824,8 +686,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 309873d6eb6de8320800000000000000
-      internalID: 2562221351384877315
+      spriteID: 0003ca9476adad340800000000000000
+      internalID: 4889460482616602624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack boss_24
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 39
+        width: 193
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42baff72565a9e100800000000000000
+      internalID: 137823117492857636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack boss_25
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 45
+        width: 214
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4ee812b589d6ac0800000000000000
+      internalID: -3860261788414188367
       vertices: []
       indices: 
       edges: []
