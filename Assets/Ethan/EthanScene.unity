@@ -1061,6 +1061,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8082917966440894447, guid: bb85f0b84c2c5c14ebdb011e7a7e57cc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8082917966660935924, guid: bb85f0b84c2c5c14ebdb011e7a7e57cc,
         type: 3}
       propertyPath: PlayerUI
@@ -1086,6 +1091,16 @@ PrefabInstance:
       propertyPath: Enemy
       value: 
       objectReference: {fileID: 73946950}
+    - target: {fileID: 8082917966660935926, guid: bb85f0b84c2c5c14ebdb011e7a7e57cc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8082917966675873347, guid: bb85f0b84c2c5c14ebdb011e7a7e57cc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8082917966805211195, guid: bb85f0b84c2c5c14ebdb011e7a7e57cc,
         type: 3}
       propertyPath: m_AnchorMax.x

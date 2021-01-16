@@ -21,9 +21,22 @@ public class SnowballDestroy : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
-    {
+    {   
+
         if (collision.gameObject)
+        {
             Destroy(this.gameObject);
+        }
+
+        if (collision.gameObject.tag == "Enemy")
+        {
+            Destroy(this.gameObject);
+        }
+
+        if (collision.gameObject.tag == "Boss")
+        {
+            Destroy(this.gameObject);
+        }
     }
 
 }

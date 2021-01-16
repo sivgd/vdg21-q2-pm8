@@ -17,9 +17,9 @@ public class EnemyUIScript : MonoBehaviour
     // Test for enemy health
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            EnemyTakeDamage(25);
+        //if (Input.GetKeyDown(KeyCode.P))
+       {
+      //      EnemyTakeDamage(25);
         }
     }
 

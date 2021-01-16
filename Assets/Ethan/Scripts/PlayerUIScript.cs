@@ -26,10 +26,10 @@ public class PlayerUIScript : MonoBehaviour
     // Test health for the player
     void Update()
     {
-       /* if (Input.GetKeyDown(KeyCode.Space))
+       // if (Input.GetKeyDown(KeyCode.Space))
         {
-            PlayerTakeDamage(20);
-        }*/
+       //     PlayerTakeDamage(20);
+        }
     }
 
     // The code for making the player take damage 
@@ -48,7 +48,7 @@ public class PlayerUIScript : MonoBehaviour
            LifeCounter.TakeLife();
            if (PlayerPrefs.GetInt("Lives") <= -1)
            {
-               // SceneManager.LoadScene("DeathScreen");
+                SceneManager.LoadScene("DeathScreen");
                 Destroy(gameObject);
            }
            PlayercurrentHealth = PlayermaxHealth;
@@ -69,8 +69,8 @@ public class PlayerUIScript : MonoBehaviour
         {
             insanityhurt.insanity.insanityAmount += 25;
             PlayerTakeDamage(25);
-            Debug.Log("boss take damage");
-            Debug.Log(collision.gameObject.tag);
+            //Debug.Log("boss take damage");
+            //Debug.Log(collision.gameObject.tag);
         }
     }
 }
