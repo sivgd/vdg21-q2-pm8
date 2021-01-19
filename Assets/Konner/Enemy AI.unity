@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 249019962}
   - component: {fileID: 249019963}
   - component: {fileID: 249019964}
+  - component: {fileID: 249019965}
   m_Layer: 0
   m_Name: idle _ attack updated_0
   m_TagString: Untagged
@@ -302,6 +303,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01a9432896fafab4ead2c49ce3a83e20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &249019965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249019957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a9432896fafab4ead2c49ce3a83e20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &332515904
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,6 +361,7 @@ GameObject:
   - component: {fileID: 513685726}
   - component: {fileID: 513685725}
   - component: {fileID: 513685724}
+  - component: {fileID: 513685728}
   m_Layer: 0
   m_Name: attack boss_0
   m_TagString: Untagged
@@ -526,6 +540,18 @@ MonoBehaviour:
   speed: 0
   maxRange: 0
   minRange: 0
+--- !u!114 &513685728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513685719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a9432896fafab4ead2c49ce3a83e20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &594885159
 GameObject:
   m_ObjectHideFlags: 0
