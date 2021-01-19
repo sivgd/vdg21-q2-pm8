@@ -6,8 +6,11 @@ public class PlayerUltimate : MonoBehaviour
 {
     public float scaler;
     public Rigidbody2D rb;
+    public Rigidbody2D playerrb;
     public Animator animator;
     public GameObject snowball;
+    public GameObject player;
+
     public Transform Spawnpoint;
     public float ThrowSpeed;
     public bool IsShooting;
@@ -18,6 +21,8 @@ public class PlayerUltimate : MonoBehaviour
     void Start()
     {
         rb = snowball.GetComponent<Rigidbody2D>();
+        playerrb = player.GetComponent<Rigidbody2D>();
+
         IsShooting = false;
     }
 
@@ -63,7 +68,7 @@ public class PlayerUltimate : MonoBehaviour
     IEnumerator UpCoroutine()
     {
         GameObject clone = (GameObject)Instantiate(snowball, new Vector3(Spawnpoint.transform.position.x, Spawnpoint.transform.position.y + 1, Spawnpoint.transform.position.z), Quaternion.identity);
-        clone.GetComponent<Rigidbody2D>().velocity = new Vector2(0, ThrowSpeed);
+        clone.GetComponent<Rigidbody2D>().velocity = new Vector2(scaler * Input.GetAxis("Horizontal"), ThrowSpeed);
         yield return new WaitForSeconds(waittime);
 
         IsShooting = false;
@@ -71,7 +76,7 @@ public class PlayerUltimate : MonoBehaviour
     IEnumerator DownCoroutine()
     {
         GameObject clone = (GameObject)Instantiate(snowball, new Vector3(Spawnpoint.transform.position.x, Spawnpoint.transform.position.y - 1, Spawnpoint.transform.position.z), Quaternion.identity);
-        clone.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -ThrowSpeed);
+        clone.GetComponent<Rigidbody2D>().velocity = new Vector2(scaler * Input.GetAxis("Horizontal"), -ThrowSpeed);
         yield return new WaitForSeconds(waittime);
 
         IsShooting = false;
@@ -79,7 +84,7 @@ public class PlayerUltimate : MonoBehaviour
     IEnumerator RightCoroutine()
     {
         GameObject clone = (GameObject)Instantiate(snowball, new Vector3(Spawnpoint.transform.position.x + 1, Spawnpoint.transform.position.y, Spawnpoint.transform.position.z), Quaternion.identity);
-        clone.GetComponent<Rigidbody2D>().velocity = new Vector2(ThrowSpeed, 0);
+        clone.GetComponent<Rigidbody2D>().velocity = new Vector2(ThrowSpeed, scaler * Input.GetAxis("Vertical"));
         yield return new WaitForSeconds(waittime);
 
         IsShooting = false;
@@ -87,7 +92,7 @@ public class PlayerUltimate : MonoBehaviour
     IEnumerator LeftCoroutine()
     {
         GameObject clone = (GameObject)Instantiate(snowball, new Vector3(Spawnpoint.transform.position.x - 1, Spawnpoint.transform.position.y, Spawnpoint.transform.position.z), Quaternion.identity);
-        clone.GetComponent<Rigidbody2D>().velocity = new Vector2(-ThrowSpeed, 0);
+        clone.GetComponent<Rigidbody2D>().velocity = new Vector2(-ThrowSpeed, scaler * Input.GetAxis("Vertical"));
         yield return new WaitForSeconds(waittime);
         IsShooting = false;
     }
