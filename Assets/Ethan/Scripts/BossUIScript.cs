@@ -9,6 +9,7 @@ public class BossUIScript : MonoBehaviour
     public int BossmaxHealth = 250;
     public int BosscurrentHealth;
 
+    public GameObject NextLevel;
     // The dropping of the heart to go to next level
     public GameObject lootDrop;
 
@@ -45,6 +46,7 @@ public class BossUIScript : MonoBehaviour
         if (BosscurrentHealth == 0)
         {
             Destroy(gameObject);
+            Instantiate(NextLevel, new Vector3(370, 231, 377), transform.rotation);
             Instantiate(lootDrop, transform.position, Quaternion.identity);
         }
     }    

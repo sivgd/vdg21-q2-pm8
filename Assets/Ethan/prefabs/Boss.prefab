@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 763688508009471148}
   - component: {fileID: 763688508009471149}
   - component: {fileID: 763688508009471150}
+  - component: {fileID: 176307825761547392}
   m_Layer: 0
-  m_Name: Boss 1
+  m_Name: Boss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -135,6 +136,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BossmaxHealth: 250
   BosscurrentHealth: 0
-  player: {fileID: 0}
-  insanityhurt: {fileID: 0}
+  NextLevel: {fileID: 0}
   lootDrop: {fileID: 0}
+--- !u!95 &176307825761547392
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763688508009471151}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bab9ccfc69dad4048945a16351ecc58f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

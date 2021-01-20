@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Cody/Level_One.unity
     guid: 7c7971351b96657448d844467aef2f87
   - enabled: 1
-    path: Assets/Cody/Main_Enemy.unity
+    path: Assets/Game/Main_Enemy.unity
     guid: 5497b36b29f594c4d86bfcec9b0ad888
   - enabled: 1
     path: Assets/Game/Settings.unity
