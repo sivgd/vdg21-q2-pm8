@@ -53,7 +53,7 @@ public class Insanity {
      public Insanity()
     {
         insanityAmount = 0;
-        insanityRegenAmount = 0.5f;
+        insanityRegenAmount = 1f;
     }
 
     // Resets the insanity amount

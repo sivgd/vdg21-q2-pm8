@@ -68,7 +68,7 @@ public class PlayerUIScript : MonoBehaviour
         if (collision.gameObject.tag == "Boss")
         {
             insanityhurt.insanity.insanityAmount += 25;
-            PlayerTakeDamage(25);
+            PlayerTakeDamage(35);
             //Debug.Log("boss take damage");
             //Debug.Log(collision.gameObject.tag);
         }
