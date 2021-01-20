@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/DeathScreen.unity
     guid: 2602192cff527f7448e95b12f1322adc
+  - enabled: 1
+    path: Assets/Game/winscreen.unity
+    guid: 7ca0b46e37931794dba5bc59f436e54c
   m_configObjects: {}
