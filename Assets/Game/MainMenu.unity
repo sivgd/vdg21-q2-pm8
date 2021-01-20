@@ -156,8 +156,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0.77500004}
-  m_AnchoredPosition: {x: 68.6, y: 61.399994}
-  m_SizeDelta: {x: 1257.2256, y: 161.21167}
+  m_AnchoredPosition: {x: 81.8, y: 65.8}
+  m_SizeDelta: {x: 1797.2981, y: 559.89514}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &77164370
 MonoBehaviour:
@@ -336,7 +336,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 695430992}
-  - component: {fileID: 695430993}
   - component: {fileID: 695430995}
   - component: {fileID: 695430994}
   m_Layer: 5
@@ -365,56 +364,6 @@ RectTransform:
   m_AnchoredPosition: {x: -12.257019, y: 301.135}
   m_SizeDelta: {x: 9.88, y: 1.97}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!212 &695430993
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 695430991}
-  m_Enabled: 0
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: bb9042f0e8118f346b3162240d2e98dc, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 9.88, y: 1.97}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!114 &695430994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -605,8 +554,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.35846737}
   m_AnchorMax: {x: 0.9052898, y: 0.7018983}
-  m_AnchoredPosition: {x: -322.90808, y: -59.73239}
-  m_SizeDelta: {x: 131.38385, y: 275.87628}
+  m_AnchoredPosition: {x: -445.55106, y: -76.1658}
+  m_SizeDelta: {x: -87.502014, y: 138.95602}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1161398767
 MonoBehaviour:
