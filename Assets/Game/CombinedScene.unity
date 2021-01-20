@@ -300,6 +300,11 @@ PrefabInstance:
       propertyPath: m_CollisionDetection
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7564366216391029126, guid: 3983f408bb14f1e488f336cf34267520,
+        type: 3}
+      propertyPath: m_SleepingMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7564366216391029127, guid: 3983f408bb14f1e488f336cf34267520,
         type: 3}
       propertyPath: m_IsTrigger
@@ -833,7 +838,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   homePos: {fileID: 265751924}
-  speed: 15
+  speed: 18
   maxRange: 5
   minRange: 4
 --- !u!1 &954705632 stripped
@@ -861,7 +866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   homePos: {fileID: 265751924}
-  speed: 15
+  speed: 18
   maxRange: 5
   minRange: 4
 --- !u!1 &978855749 stripped
@@ -889,7 +894,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   homePos: {fileID: 265751924}
-  speed: 15
+  speed: 18
   maxRange: 5
   minRange: 4
 --- !u!1001 &1013556238
@@ -45166,7 +45171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   homePos: {fileID: 265751924}
-  speed: 15
+  speed: 18
   maxRange: 5
   minRange: 4
 --- !u!1 &1520067181
@@ -49827,6 +49832,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7564366216391029126, guid: 3983f408bb14f1e488f336cf34267520,
+        type: 3}
+      propertyPath: m_SleepingMode
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3983f408bb14f1e488f336cf34267520, type: 3}
 --- !u!4 &1625309534 stripped
@@ -49854,7 +49864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   homePos: {fileID: 265751924}
-  speed: 15
+  speed: 18
   maxRange: 5
   minRange: 4
 --- !u!1 &1650498056
