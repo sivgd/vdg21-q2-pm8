@@ -8,11 +8,11 @@ public class EnemyController : MonoBehaviour
     private Transform target;
     public Transform homePos;
     [SerializeField]
-    private float speed = 0f;
+    private float speed = 2f;
     [SerializeField]
-    private float maxRange = 0f;
+    private float maxRange = 5f;
     [SerializeField]
-    private float minRange = 0f;
+    private float minRange = 0.75f;
     // Start is called before the first frame update
     void Start()
     {
